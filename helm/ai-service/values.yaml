@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: mydockerregistry/ai-service
+  repository: pablogonzalezr001/ai-service
   pullPolicy: IfNotPresent
   tag: "latest"
 

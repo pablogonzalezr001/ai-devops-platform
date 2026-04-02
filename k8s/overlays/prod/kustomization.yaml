@@ -13,10 +13,10 @@ patches:
     patch: |-
       - op: replace
         path: /spec/replicas
-        value: 3
+        value: 1
       - op: replace
         path: /spec/template/spec/containers/0/resources/requests/cpu
-        value: "200m"
+        value: "100m"
 
 images:
   - name: mydockerregistry/ai-service
